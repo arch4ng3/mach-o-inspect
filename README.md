@@ -2,6 +2,8 @@
 
 ## Overview
 
+![alt text](image.png)
+
 This project provides tools to analyze and visualize Mach-O binaries in a directory on macOS. It includes:
 1.	Harvester Script: Recursively scans a specified directory, identifies Mach-O binaries, extracts their headers, and stores the data in an SQLite database.
 2.	Streamlit Dashboard: A web-based dashboard to visualize and analyze the stored data.
@@ -32,3 +34,5 @@ streamlit run dashboard.py
 ```
 
 After running this command, Streamlit will provide a URL (e.g., http://localhost:8501) where you can access the dashboard in your browser.
+
+
